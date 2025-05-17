@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "morecraftables",
+	"version": "1.0.0",
+	"name": "More Craftables",
+	"description": "Add more recipies to improve the Quality of Life",
+	"authors": [
+		"susguy446"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/YNwfX3jj2k",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.susguy446.morecraftables"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
